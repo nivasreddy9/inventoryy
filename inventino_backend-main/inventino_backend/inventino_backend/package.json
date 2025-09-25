@@ -1,0 +1,60 @@
+{
+  "name": "gt_backend",
+  "version": "1.0.0",
+  "description": "Comprehensive E-Commerce Backend System",
+  "main": "src/ecommerce/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/ecommerce/server.js",
+    "dev": "nodemon src/ecommerce/server.js",
+    "build": "echo 'Build process for production deployment'",
+    "test": "echo 'Test suite for e-commerce backend'"
+  },
+  "keywords": [
+    "ecommerce",
+    "nodejs",
+    "express",
+    "mongodb",
+    "microservices"
+  ],
+  "author": "E-Commerce Team",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.12.0",
+    "@sendgrid/mail": "^8.1.5",
+    "agenda": "^5.0.0",
+    "aws-sdk": "^2.1490.0",
+    "axios": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "express-winston": "^4.2.0",
+    "firebase-admin": "^13.5.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7",
+    "redis": "^4.6.10",
+    "sharp": "^0.33.0",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.7.4",
+    "stripe": "^14.5.0",
+    "twilio": "^5.9.0",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^6.3.3"
+  }
+}
